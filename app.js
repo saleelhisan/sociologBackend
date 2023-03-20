@@ -22,7 +22,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
     cors: {
-        origin: 'http://localhost:3000'
+        origin: 'https://master.d176t86rv5qn4e.amplifyapp.com/'
     }
 });
 
